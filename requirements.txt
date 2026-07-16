@@ -1,0 +1,8 @@
+streamlit
+folium
+streamlit-folium
+pandas
+numpy
+shapely
+global-land-mask
+requests
