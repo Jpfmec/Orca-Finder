@@ -8,7 +8,7 @@ import numpy as np
 from global_land_mask import globe
 import requests
 
-st.set_page_config(page_title=" Orca Tracker", layout="wide", page_icon="🌊")
+st.set_page_config(page_title=" Orcast", layout="wide", page_icon="🌊")
 
 
 @st.cache_data
@@ -138,7 +138,7 @@ def obter_eventos_orcas():
 
 def main():
     # --- BARRA LATERAL ---
-    st.sidebar.title(" O Cérebro do Algoritmo")
+    st.sidebar.title(" O Algoritmo")
     st.sidebar.markdown("O sistema cruza dados biológicos para prever atividade de Orcas e Atum Rabilho.")
 
     st.sidebar.info("🌡 **SST (15ºC - 18ºC):** A temperatura perfeita para o Atum.")
@@ -165,7 +165,7 @@ def main():
        """)
 
     # --- PAINEL PRINCIPAL ---
-    st.title(" Orca Tracker: Previsão Automática GIS")
+    st.title("Orcast")
     st.markdown("""
     As zonas de **calor (heatmap)** indicam os locais com maior risco de interação com base nas condições oceanográficas atuais. 
     Ideal para planear rotas seguras na Volta a Portugal à Vela.
