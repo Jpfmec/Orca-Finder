@@ -142,8 +142,8 @@ def main():
     st.sidebar.markdown("O sistema cruza dados biológicos para prever atividade de Orcas e Atum Rabilho.")
 
     st.sidebar.info("🌡 **SST (15ºC - 18ºC):** A temperatura perfeita para o Atum.")
-    st.sidebar.success(" **Clorofila (> 3.5):** Indica upwelling forte e muita comida (fitoplâncton).")
-    st.sidebar.warning(" **Drop-offs (< -200m):** Zonas fundas onde os predadores encurralam as presas.")
+    st.sidebar.success(" **Clorofila (> 3.5):** Indica upwelling forte e muita comida para o atum (fitoplâncton).")
+    st.sidebar.warning(" **Drop-offs (< -200m):** Zonas fundas onde os predadores encurralam as presas (atum).")
     st.sidebar.warning(" **Últimos Ataques (30 dias):** Ultimos ataques registrados no site "
                        "https://https://www.orcas.pt/.")
 
