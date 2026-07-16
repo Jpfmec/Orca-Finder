@@ -1,4 +1,4 @@
-Orca Tracker Pro
+Orca Tracker
 
 Sistema de Previsão Automática GIS para Navegação Segura
 
