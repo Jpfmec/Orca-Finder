@@ -149,14 +149,14 @@ def main():
 
     st.sidebar.markdown("---")
     st.sidebar.success(
-        " **Calibrado:** Os hotspots estão alinhados a 100% com avistamentos reais (incluindo Gibraltar e Aveiro).")
+        " **Calibrado:** Os hotspots estão alinhados a 100% com avistamentos reais .")
 
     st.sidebar.markdown("---")
     st.sidebar.title("Por Trás do Código")
     st.sidebar.markdown("""
        **Zé Castro** Estudante de 18 anos, prestes a ir a universidade que propôs fazer parte na Volta a Portugal à Vela. 
 
-       Desenvolvi este radar algorítmico do zero para prever as zonas de risco, cruzar dados reais e salvar o leme do barco durante a regata.
+       Desenvolvi este radar algorítmico do zero para prever as zonas de risco, cruzar dados reais e salvar o leme do barco durante a volta a portugal de 2026.
 
        **Contactos:**
        
@@ -168,7 +168,7 @@ def main():
     st.title("Orcast")
     st.markdown("""
     As zonas de **calor (heatmap)** indicam os locais com maior risco de interação com base nas condições oceanográficas atuais. 
-    Ideal para planear rotas seguras na Volta a Portugal à Vela.
+    Ideal para planear rotas seguras para Vela.
     """)
 
     df_ocean = generate_mock_ocean_data()
